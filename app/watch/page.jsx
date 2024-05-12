@@ -11,7 +11,7 @@ const watch = async () => {
   const products = await getData();
   return (
     <div>
-      <Title title="Fullfill Everything with our Accessories" />
+      <Title title="Be on Time with our Watches" />
       <Products products={products} />
     </div>
   );

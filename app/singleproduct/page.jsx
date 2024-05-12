@@ -13,7 +13,7 @@ const singleProduct = async ({ searchParams }) => {
         alt="product image"
         height={500}
         width={500}
-        className=" p-14"
+        className="  "
       />
       <div className="flex flex-col sm:mx-4 sm:block md:block gap-2">
         <p className="text-xl font-semibold">{product.title}</p>
